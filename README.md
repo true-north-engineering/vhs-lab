@@ -40,7 +40,7 @@ Path to this resource should be: /api/rental
 - Implement security model using Spring Security with two existing roles. ROLE_ADMIN, ROLE_USER
 - Add ROLE_ADMIN to all rental shop workers in the system, and ROLE_USER to all existing rental shop clients in the system
 - Implement login/logout and use with User and Workers credentials
-- Forbid users with ROLE_User access to RentalController resources
+- Forbid users with ROLE_USER access to RentalController resources
 
 #### UI or Postman collection
 Design a simple frontend/postman to our VHS rental shop that will have these mandatory actions:
