@@ -22,7 +22,6 @@ Path to this resource should be: /api/rental
 - 4 HTTP methods should be implemented. (e.g. GET, POST, PUT and DELETE)
 - Use Spring Data JPA Repositories
 - Use Qualifiers when needed
-- Use Multiple Profiles
 - Try to use all Spring stereotype annotations.
 - Using Value, annotate a method that takes a single String argument with any property, print the argument to console inside the method than note what happens on Spring context initialization
 - Use the Value annotation on a method at parameter level to autowire arguments with property values
@@ -43,7 +42,12 @@ Path to this resource should be: /api/rental
 - Implement login/logout and use with User and Workers credentials
 - Forbid users with ROLE_User access to RentalController resources
 
-#### UI
-
-
+#### UI or Postman collection
+Design a simple frontend/postman to our VHS rental shop that will have these mandatory actions:
+Login/Logout
+VHS
+- List
+- VHS Rent and Return option
+- Preview
+List of Rentals
 
