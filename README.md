@@ -4,13 +4,13 @@ We are creating a cutting edge VHS rental application management system for our 
 
 ![img_1.png](backtothepast.png)
 
-###VHS Rental Application
+### VHS Rental Application
 
-####API
-1. Implement a VHS resource RESTful API over http
-- Path to this resource should be: /api/vhs
-2. Implement CRUD RESTful API for Rental resource
-- Path to this resource should be: /api/rental
+#### API
+1. Implement a VHS resource RESTful API over http. 
+Path to this resource should be: /api/vhs
+3. Implement CRUD RESTful API for Rental resource. 
+Path to this resource should be: /api/rental
 #### JPA
 - Model VHS as JPA Entity
 - Model User as JPA Entity
