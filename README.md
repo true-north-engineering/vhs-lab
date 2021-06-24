@@ -44,10 +44,10 @@ Path to this resource should be: /api/rental
 
 #### UI or Postman collection
 Design a simple frontend/postman to our VHS rental shop that will have these mandatory actions:
-Login/Logout
-VHS
-- List
-- VHS Rent and Return option
-- Preview
-List of Rentals
+- Login/Logout
+- VHS
+  - List
+  - VHS Rent and Return option
+  - Preview
+- List of Rentals
 
