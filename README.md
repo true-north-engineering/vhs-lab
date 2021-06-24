@@ -1,6 +1,6 @@
 # VHS Rental shop - Blast from the past
 
-We are creating a cutting edge VHS rental application management system for our special clients that value the old time retro VHS experince. 
+We are creating a cutting edge VHS rental application management system for our special clients that value the old time retro VHS experience. 
 
 ![img_1.png](backtothepast.png)
 
