@@ -23,7 +23,7 @@ Path to this resource should be: /api/rental
 - Use Spring Data JPA Repositories
 - Use Qualifiers when needed
 - Try to use all Spring stereotype annotations.
-- Using Value, annotate a method that takes a single String argument with any property, print the argument to console inside the method than note what happens on Spring context initialization
+- Use Value, annotate a method that takes a single String argument with any property, print the argument to console inside the method.
 - Use the Value annotation on a method at parameter level to autowire arguments with property values
 - Use Lombok annotations and Slf4j Logback logging with Lombok
 - Implement @ExceptionHandler to catch and handle all exceptions
