@@ -35,9 +35,10 @@ Path to this resource should be: /api/rental
 - Prepopulate database of choice (H2, Postgresql or any other non-Oracle database)
 - Create automated tests 
 
-#### API&Security
-- Write API specification for all controller endpoints you have in your application by using swagger lib
-- Implement security model using Spring Security with two existing roles. ROLE_ADMIN, ROLE_USER
+#### API&Security 
+
+- Write API specification for all controller endpoints you have in your application by using swagger lib -> https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+- Implement security model using Spring Security with two existing roles. ROLE_ADMIN, ROLE_USER -> https://www.baeldung.com/security-spring
 - Add ROLE_ADMIN to all rental shop workers in the system, and ROLE_USER to all existing rental shop clients in the system
 - Implement login/logout and use with User and Workers credentials
 - Forbid users with ROLE_USER access to RentalController resources
@@ -50,4 +51,43 @@ Design a simple frontend/postman to our VHS rental shop that will have these man
   - VHS Rent and Return option
   - Preview
 - List of Rentals
+
+
+# Guidance:
+
+
+## Setup development environment
+### Linux
+
+1. Install Java JDK 14 : http://jdk.java.net/14/
+2. Install Maven 3.6.0 or higher: https://maven.apache.org/install.html
+3. Install Git: https://www.atlassian.com/git/tutorials/install-git
+4. Install IntelliJ IDEA CE: https://www.jetbrains.com/idea/download
+
+
+### Windows
+
+1. Install Java JDK 14: http://jdk.java.net/14/
+2. Install Maven 3.6.3 or higher: https://maven.apache.org/install.html
+3. Install Gradle 6.5 or higher: https://gradle.org/install/
+4. Install Git: https://www.atlassian.com/git/tutorials/install-git
+5. Install IntelliJ IDEA CE: https://www.jetbrains.com/idea/download
+
+
+### Setup your account and repository
+1. Setup GitHub account
+2. Checkout repository with assignment
+3. Fork your own repository
+4. Create your own branch
+5. Add your mentor as member to your repository with role Maintainer
+
+### Spring Initializr
+
+Visit the Spring Initializr to generate a new project with the required dependencies (Spring Web, Spring Data, ....).
+https://spring.io/guides/gs/spring-boot/
+
+### Books
+- Spring Introduction https://www.baeldung.com/spring-intro
+- https://start.spring.io/
+- https://www.manning.com/books/spring-boot-in-action
 
