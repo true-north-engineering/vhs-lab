@@ -30,7 +30,7 @@ Path to this resource should be: /api/rental
 
 
 #### UI or Postman collection
-Design a simple frontend/postman to our VHS rental shop that will have these mandatory actions:
+Create a simple postman collection for our VHS rental shop that will have these mandatory actions (put it in your git repository root folder):
 - VHS
   - List
   - VHS Rent and Return option
@@ -47,15 +47,16 @@ Design a simple frontend/postman to our VHS rental shop that will have these man
 2. Install Maven 3.6.0 or higher: https://maven.apache.org/install.html
 3. Install Git: https://www.atlassian.com/git/tutorials/install-git
 4. Install IntelliJ IDEA CE: https://www.jetbrains.com/idea/download
+5. Postman: https://www.postman.com/
 
 
 ### Windows
 
 1. Install Java JDK 14 or higher: http://jdk.java.net/14/
 2. Install Maven 3.6.3 or higher: https://maven.apache.org/install.html
-3. Install Gradle 6.5 or higher: https://gradle.org/install/
-4. Install Git: https://www.atlassian.com/git/tutorials/install-git
-5. Install IntelliJ IDEA CE: https://www.jetbrains.com/idea/download
+3. Install Git: https://www.atlassian.com/git/tutorials/install-git
+4. Install IntelliJ IDEA CE: https://www.jetbrains.com/idea/download
+5. Postman: https://www.postman.com/
 
 
 ### Setup your account and repository
