@@ -1,0 +1,65 @@
+-- Insert Users
+INSERT INTO app_user (name, email) VALUES ('John Doe', 'john.doe@example.com');
+INSERT INTO app_user (name, email) VALUES ('Jane Smith', 'jane.smith@example.com');
+INSERT INTO app_user (name, email) VALUES ('Alice Johnson', 'alice.johnson@example.com');
+INSERT INTO app_user (name, email) VALUES ('Bob Brown', 'bob.brown@example.com');
+INSERT INTO app_user (name, email) VALUES ('Charlie Davis', 'charlie.davis@example.com');
+INSERT INTO app_user (name, email) VALUES ('David Wilson', 'david.wilson@example.com');
+INSERT INTO app_user (name, email) VALUES ('Eve Adams', 'eve.adams@example.com');
+INSERT INTO app_user (name, email) VALUES ('Frank Thomas', 'frank.thomas@example.com');
+INSERT INTO app_user (name, email) VALUES ('Grace Lee', 'grace.lee@example.com');
+INSERT INTO app_user (name, email) VALUES ('Hank Martin', 'hank.martin@example.com');
+INSERT INTO app_user (name, email) VALUES ('Ivy Lewis', 'ivy.lewis@example.com');
+INSERT INTO app_user (name, email) VALUES ('Jack Clark', 'jack.clark@example.com');
+INSERT INTO app_user (name, email) VALUES ('Kathy Walker', 'kathy.walker@example.com');
+INSERT INTO app_user (name, email) VALUES ('Larry Hall', 'larry.hall@example.com');
+INSERT INTO app_user (name, email) VALUES ('Mia Allen', 'mia.allen@example.com');
+INSERT INTO app_user (name, email) VALUES ('Nathan Young', 'nathan.young@example.com');
+INSERT INTO app_user (name, email) VALUES ('Olivia King', 'olivia.king@example.com');
+INSERT INTO app_user (name, email) VALUES ('Paul Wright', 'paul.wright@example.com');
+INSERT INTO app_user (name, email) VALUES ('Quinn Scott', 'quinn.scott@example.com');
+INSERT INTO app_user (name, email) VALUES ('Rachel Green', 'rachel.green@example.com');
+
+-- Insert VHS
+INSERT INTO vhs (title, genre, release_year) VALUES ('The Matrix', 'Sci-Fi', 1999);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Jurassic Park', 'Adventure', 1993);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Star Wars', 'Sci-Fi', 1977);
+INSERT INTO vhs (title, genre, release_year) VALUES ('The Godfather', 'Crime', 1972);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Pulp Fiction', 'Crime', 1994);
+INSERT INTO vhs (title, genre, release_year) VALUES ('The Shawshank Redemption', 'Drama', 1994);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Forrest Gump', 'Drama', 1994);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Inception', 'Sci-Fi', 2010);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Fight Club', 'Drama', 1999);
+INSERT INTO vhs (title, genre, release_year) VALUES ('The Lord of the Rings', 'Fantasy', 2001);
+INSERT INTO vhs (title, genre, release_year) VALUES ('The Dark Knight', 'Action', 2008);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Schindler''s List', 'Drama', 1993);
+INSERT INTO vhs (title, genre, release_year) VALUES ('The Silence of the Lambs', 'Thriller', 1991);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Saving Private Ryan', 'War', 1998);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Gladiator', 'Action', 2000);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Titanic', 'Romance', 1997);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Avatar', 'Sci-Fi', 2009);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Braveheart', 'Drama', 1995);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Alien', 'Horror', 1979);
+INSERT INTO vhs (title, genre, release_year) VALUES ('Terminator 2: Judgment Day', 'Action', 1991);
+
+-- Insert Rentals
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (1, 1, '2024-01-01', '2024-01-08', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (2, 2, '2024-01-02', '2024-01-09', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (3, 3, '2024-01-03', '2024-01-10', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (4, 4, '2024-01-04', '2024-01-11', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (5, 5, '2024-01-05', '2024-01-12', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (6, 6, '2024-01-06', '2024-01-13', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (7, 7, '2024-01-07', '2024-01-14', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (8, 8, '2024-01-08', '2024-01-15', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (9, 9, '2024-01-09', '2024-01-16', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (10, 10, '2024-01-10', '2024-01-17', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (11, 11, '2024-01-11', '2024-01-18', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (12, 12, '2024-01-12', '2024-01-19', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (13, 13, '2024-01-13', '2024-01-20', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (14, 14, '2024-01-14', '2024-01-21', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (15, 15, '2024-01-15', '2024-01-22', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (16, 16, '2024-01-16', '2024-01-23', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (17, 17, '2024-01-17', '2024-01-24', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (18, 18, '2024-01-18', '2024-01-25', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (19, 19, '2024-01-19', '2024-01-26', 0.0);
+INSERT INTO rental (user_id, vhs_id, rental_date, due_date, late_fee) VALUES (20, 20, '2024-01-20', '2024-01-27', 0.0);
